@@ -8,23 +8,22 @@
 }
 
 body {
-  background-color: beige;
+  background-color: #a9d6e5;
 }
 
 h3 {
-  background-color: rgb(231 188 145);
-  color: hsl(33deg 98% 17%);
+  background-color: rgb(97 165 194);
+  color: hsl(206deg 97% 15%);
   text-align: center;
   font-weight: 900;
   padding: 40px;
 }
 
 p {
-  background-color: #583101;
-  color: #f3d5b5;
+  background-color: darkslateblue;
+  color: #89c2d9;
   font-weight: 900;
   padding: 10px;
-
 }
 
 .demo-list-control {
@@ -37,5 +36,5 @@ p {
 
 img {
   border-style: solid;
-  border-color: #583101;
+  border-color: #03045e;
 }
