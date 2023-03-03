@@ -16,7 +16,7 @@
 
     <!-- Google's MDL -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.light_blue-cyan.min.css" />
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.cyan-indigo.min.css" />
 
     <!-- Web page title -->
     <title>Travelling to Greece</title>
@@ -32,7 +32,7 @@
     <!-- JavaScript alert -->
     <script>
       function myButtonClicked() {
-        alert("text")
+        alert("Greece is a country in southwestern Europe. Greece shares borders with Albania to the northwest, North Macedonia and Bulgaria to the north, and Turkey to the northeast. It is bordered by the Aegean Sea to the east, the Ionian Sea to the west, the Cretan Sea and the Mediterranean Sea to the south, and the country is most known for the islands dotting these seas. Greece has a population of 10,678,632 people.")
       }
     </script>
 
@@ -48,7 +48,7 @@
           <nav class="mdl-navigation mdl-layout--large-screen-only">
             <a class="mdl-navigation__link" href="./index.html">Home</a>
             <a class="mdl-navigation__link" href="./index2.html">Greece</a>
-            <a class="mdl-navigation__link" href="">France</a>
+            <a class="mdl-navigation__link" href="./index3.html">France</a>
           </nav>
         </div>
       </header>
@@ -57,7 +57,7 @@
         <nav class="mdl-navigation">
           <a class="mdl-navigation__link" href="./index.html">Home</a>
           <a class="mdl-navigation__link" href="index2.html">Greece</a>
-          <a class="mdl-navigation__link" href="">France</a>
+          <a class="mdl-navigation__link" href="./index3.html">France</a>
         </nav>
       </div>
 
@@ -68,66 +68,65 @@
         <h3>Welcome to Greece!<br>Καλως ηρθες στην ΕΛΛΑΔΑ!</h3>
 
         <!-- Body text -->
-        <p>Something about Greece</p>
+        <p>For as long as I can remember, I've always wanted to travel. Places like the UK, Barbados, Peru and Scotland come to mind when I think of a place to go. But one place stands out; Greece. With the beautiful beaches, lots of stories and exceptional culture and food, Greece is where I want to go the most.</p>
 
-        <!-- Body text with hyperlink -->
-        <p>
-          If you would like to learn about some of the most popular travel destinations, click on <a href="https://www.forbes.com/sites/laurabegleybloom/2019/09/04/bucket-list-travel-the-top-50-places-in-the-world/?sh=187b344720cf">this link</a>.
-        </p>
-        <br>
-
-        <p>Select the options in the table below that you would like to visit, if any:</p>
-        <!-- List with avatar and controls -->
-        <ul class="demo-list-control mdl-list">
-          <li class="mdl-list__item">
-            <span class="mdl-list__item-primary-content">
-              <i class="material-icons  mdl-list__item-avatar">place</i>
-              Bali, Indonesia
-            </span>
-            <span class="mdl-list__item-secondary-action">
-              <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="list-checkbox-1">
-                <input type="checkbox" id="list-checkbox-1" class="mdl-checkbox__input" />
-              </label>
-            </span>
-          </li>
-          <li class="mdl-list__item">
-            <span class="mdl-list__item-primary-content">
-              <i class="material-icons  mdl-list__item-avatar">place</i>
-              The Maldives
-            </span>
-            <span class="mdl-list__item-secondary-action">
-              <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="list-checkbox-2">
-                <input type="checkbox" id="list-checkbox-2" class="mdl-checkbox__input" />
-              </label>
-            </span>
-          </li>
-          <li class="mdl-list__item">
-            <span class="mdl-list__item-primary-content">
-              <i class="material-icons  mdl-list__item-avatar">place</i>
-              Dubai, U.A.E.
-            </span>
-            <span class="mdl-list__item-secondary-action">
-              <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="list-checkbox-3">
-                <input type="checkbox" id="list-checkbox-3" class="mdl-checkbox__input" />
-              </label>
-            </span>
-          </li>
-        </ul>
-        
-
-        <!-- Accent-colored raised button with ripple -->
-        <button onclick="myButtonClicked()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
-          Click me if you are excited to continue!
-        </button>
+        <!-- Wide card with share menu button -->
+        <style>
+          .demo-card-wide.mdl-card {
+            width: 512px;
+          }
+          .demo-card-wide > .mdl-card__title {
+            color: #fff;
+            height: 176px;
+            background: url('./images/santorini_greece_for_card.jpg') center / cover;
+          }
+          .demo-card-wide > .mdl-card__menu {
+            color: #fff;
+          }
+        </style>
+        <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+          <div class="mdl-card__title">
+            <h2 class="mdl-card__title-text">Greece</h2>
+          </div>
+          <div class="mdl-card__actions mdl-card--border">
+            <a onclick="myButtonClicked()" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+              Learn more about Greece
+            </a>
+          </div>
+        </div>
         <br>
         <br>
 
-        <!-- Image -->
+        <!-- Another heading -->
+        <h3>What I would like to do in Greece:</h3>
+
+        <!-- Body text -->
+        <p>Here are a few places I would like to visit, along with some activities I would like to do.</p>
+
+        <!-- Ordered list -->
+        <ol>
+          <li>Athens is the capital of Greece and it is a very important place in a historical context. This is the city that hosted the first Olympic Games! I would like to go to the Acropolis of Athens to see the Parthenon and the Erechtheion. I also want to visit the National Museum of Archeology in Athens, because it is a very popular place to learn about the incredible archeology of Greece.</li>
+          <br>
+          <li>Santorini is the classic Greek postcard. If you like views from high cliffs overlooking the ocean, Santorini is the place to be. I want to visit Ammoudi beach because of the turquoise water and white sand. I would also like to watch the beautiful sunset overlooking the cliffs.</li>
+        </ol>
+
+        <!-- Images -->
+        <img src="./images/athens_image.webp" height="312" width="700" alt="Image of Athens.">
+        <br>
+        <br>
+        <img src="./images/santorini_image.webp" height="312" width="500" alt="Image of Santorini.">
+        <br>
+        <br>
+
+        <!-- Colored icon button -->
         <center>
-          <img src="./images/plane_flying_over_ocean.jpg" height="340" width="700" alt="Airplane flying in a sunset.">
+          <p>Click on the button if you leanred something about Greece!</p>
+          <button class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored">
+            <i class="material-icons">mood</i>
+          </button>
         </center>
         <br>
-        <br>   
+        <br>
       </main>
     </div>
   </body>
