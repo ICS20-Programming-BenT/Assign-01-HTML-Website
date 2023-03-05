@@ -18,6 +18,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-blue.min.css" />
 
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
     <!-- Web page title -->
     <title>Travelling to Greece</title>
 
@@ -65,7 +69,58 @@
       <main class = "mdl-layout__content" style = "padding-left:20px; padding-right:20px;">
 
         <!-- Heading text -->
-        <h3>Welcome to Greece!<br>Καλως ηρθες στην ΕΛΛΑΔΑ!</h3>
+        <br>
+        <h1>Welcome to Greece!<br>Καλως ηρθες στην ΕΛΛΑΔΑ!</h1>
+        <br>
+
+        <!-- Video -->
+        <p>Here is a travel guide video about Greece:</p>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/lepdqiCF-W8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <br>
+
+        <!-- Bootstrap accordion -->
+        <p>Here is some information about my favourite islands in Greece:</p>
+        <br>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Milos
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Milos is one of the most underrated islands in Greece, making crowds manageable.</strong> It is an island known for its beautiful beaches and volcanic landscape. It is also the island where Venus de Milo, the statue of the ancient Greek goddess Aphrodite, was discovered in 1820.        
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Zakynthos
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Zakynthos is one of the most picturesque islands in the world!</strong> Home of the famous Shipwreck Beach, among many other beautiful beaches and cliffs, Zakynthos is a well-known summer resort that is one of the most popular destinations in Greece.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Crete
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Crete is the largest island in the Greek archipelago,</strong> and is also a very popular tourist destination. It was the home of King Minos, a very important king in Greek mythology, and is a diverse and vibrant land packed with ancient ruins, buzzing cities and breathtaking beaches.
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
 
         <!-- Body text -->
         <p>For as long as I can remember, I've always wanted to travel. Places like the UK, Barbados, Peru and Scotland come to mind when I think of a place to go. But one place stands out; Greece. With the beautiful beaches, lots of stories and exceptional culture and food, Greece is where I want to go the most.</p>
@@ -98,7 +153,7 @@
         <br>
 
         <!-- Another heading -->
-        <h3>What I would like to do in Greece:</h3>
+        <h1>What I would like to do in Greece:</h1>
 
         <!-- Body text -->
         <p>Here are a few places I would like to visit, along with some activities I would like to do.</p>
@@ -127,6 +182,11 @@
         </center>
         <br>
         <br>
+
+        <!-- Body text with hyperlink -->
+        <p>
+          If you are interested in planning a trip to Greece in the near future, click on this <a href="https://www.visitgreece.gr/">link</a> to learn more about where would be the best parts for you.
+        </p>
       </main>
     </div>
   </body>
